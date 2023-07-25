@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <li class="profile"><a href="#">Profile</a></li>
+            <ul class="link">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Skills</a></li>
+            </ul>
+        </header>
+
+
+        <div class="content">
+            <div class="text">
+                <h2>Karimat Opeyemi Abolarinwa</h2>
+                <p>
+                    A detail and result oriented Software Developer with projects such as; Weather Forecast App, Quiz
+                    App, Rock Paper
+                    Scissors Game, Figma Landing Page, Hamburger App, and Student Clock-in App to mention a few.
+                    Open to learning new concepts, skills and strategies, and seeking to work with your organization to
+                    push the boundary
+                    of innovation in the development of sustainable and user-friendly software projects by adding value
+                    to your team while
+                    improving on my existing knowledge.
+                    Lastly, I leverage skills in: .HTML, CSS, Tailwind CSS, JavaScript, React JS, and Node JS
+                </p>
+             
+            </div>
+
+        </div>
+    </section>
+            <div class="imgB0x">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="./images/img-1.jpg" alt="images"></div>
+                        <div class="swiper-slide"><img src="./images/img-2.jpg" alt="images"></div>
+                        <div class="swiper-slide"><img src="./images/img-3.jpg" alt="images"></div>
+                        <div class="swiper-slide"><img src="./images/img-4.jpg" alt="images"></div>
+                        <div class="swiper-slide"><img src="./images/img-5.jpg" alt="images"></div>
+                </div>
+            </div>
+        </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script>
+    <script src="index.js"></script>
+</body>
+
+</html>
